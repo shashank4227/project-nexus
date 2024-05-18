@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+body {
+  background: url("/img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  color: white;
+  margin: 150px 0 0 150px;
+}
+.container h1 {
+  font-size: 30px;
+}
+button {
+  background-color: red;
+  border: 2px solid red;
+  color: black;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+}
+button:hover {
+  background-color: transparent;
+  color: white;
+}
+.container p {
+  width: 500px;
+}
