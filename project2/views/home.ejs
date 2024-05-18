@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome, <%= name %></h1>
+      <p>
+        Welcome to our restaurant, <%= email %>! At Restaurant Name, we pride
+        ourselves on offering a culinary journey that celebrates the vibrant
+        flavors of local and seasonal ingredients. From farm-fresh produce to
+        sustainably sourced seafood and hand-selected meats, each dish on our
+        menu is crafted with passion and creativity.
+      </p>
+
+      <p>
+        Step into our inviting ambiance and let our team of talented chefs and
+        friendly staff elevate your dining experience. Whether you're here for a
+        casual brunch with friends or an intimate dinner with loved ones, we
+        invite you to indulge in the artistry of food and hospitality at
+        [Restaurant Name].
+      </p>
+
+      <form action="/logout" method="get">
+        <button type="submit">Logout</button>
+      </form>
+    </div>
+  </body>
+</html>
